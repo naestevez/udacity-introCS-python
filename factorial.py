@@ -1,11 +1,13 @@
 def factorial(n):
-    i = 0
-    a = n
-    while i < n:
-        a = n - i
+    i = 1
+    factorial = 1
+    count = n
+
+    while i <= count:
+        factorial = n * factorial
+        n = n - 1
         i = i + 1
-        a = a * n
-        return a
+    return factorial
 
 #n * n-1 * n-2 * n-3
 
