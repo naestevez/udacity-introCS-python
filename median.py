@@ -67,11 +67,8 @@ def median(a, b, c):
     elif c == biggest(a,b,c):
         if b == smallest(a,b,c):
             return a
-    #checks for biggest first
-
     else:
         print("Numbers were not passed in argument")
-
 
 
 
